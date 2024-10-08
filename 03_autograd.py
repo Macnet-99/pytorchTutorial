@@ -1,7 +1,7 @@
 
 import torch
 # The autograd package provides automatic differentiation 
-# for all operations on Tensors
+# for all operations on Tensors.
 
 # requires_grad = True -> tracks all operations on the tensor. 
 x = torch.randn(3, requires_grad=True)
