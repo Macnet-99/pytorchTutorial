@@ -3,7 +3,7 @@
 # 3) Training loop
 #       - Forward = compute prediction and loss
 #       - Backward = compute gradients
-#       - Update weights
+#       - Update weights 
 
 import torch
 import torch.nn as nn
