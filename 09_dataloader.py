@@ -5,7 +5,7 @@ import numpy as np
 import math
 
 # gradient computation etc. not efficient for whole data set
-# -> divide dataset into small batches
+# -> divide dataset into small batches of a given sizing
 
 '''
 # training loop
