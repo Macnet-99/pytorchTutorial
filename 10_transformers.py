@@ -63,7 +63,7 @@ class WineDataset(Dataset):
     def __len__(self):
         return self.n_samples
 
-# Custom Transforms
+# Custom Transforms applied for testing
 # implement __call__(self, sample)
 class ToTensor:
     # Convert ndarrays to Tensors
