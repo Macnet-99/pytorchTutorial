@@ -102,7 +102,7 @@ _, predictions1 = torch.max(Y_pred_good, 1)
 _, predictions2 = torch.max(Y_pred_bad, 1)
 print(f'Actual class: {Y}, Y_pred1: {predictions1}, Y_pred2: {predictions2}')
 
-# Binary classification
+# Binary classification , use BCELOSS
 class NeuralNet1(nn.Module):
     def __init__(self, input_size, hidden_size):
         super(NeuralNet1, self).__init__()
@@ -121,7 +121,7 @@ class NeuralNet1(nn.Module):
 model = NeuralNet1(input_size=28*28, hidden_size=5)
 criterion = nn.BCELoss()
 
-# Multiclass problem
+# Multiclass problem, USE CROSSENTROPYLOSS
 class NeuralNet2(nn.Module):
     def __init__(self, input_size, hidden_size, num_classes):
         super(NeuralNet2, self).__init__()
