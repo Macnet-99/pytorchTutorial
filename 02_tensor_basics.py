@@ -2,7 +2,7 @@ import torch
 
 # Everything in pytorch is based on Tensor operations.
 # A tensor can have different dimensions
-# so it can be 1d, 2d, or even 3d and higher
+# so it can be 1d, 2d, or even 3d and higher dimension
 
 # scalar, vector, matrix, tensor
 
