@@ -2,7 +2,7 @@
 Transforms can be applied to PIL images, tensors, ndarrays, or custom data
 during creation of the DataSet
 
-complete list of built-in transforms: 
+complete list of built-in transforms link: 
 https://pytorch.org/docs/stable/torchvision/transforms.html
 
 On Images
