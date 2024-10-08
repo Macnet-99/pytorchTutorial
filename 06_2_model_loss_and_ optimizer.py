@@ -6,7 +6,7 @@
 #       - Update weights
 
 import torch
-import torch.nn as nn
+import torch.nn as nn 
 
 # Linear regression
 # f = w * x 
